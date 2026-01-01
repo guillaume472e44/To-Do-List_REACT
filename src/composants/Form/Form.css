@@ -1,0 +1,29 @@
+.form__container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-block-start: 8px;
+  margin-block-end: 32px;
+}
+
+.form__input {
+  background-color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+  color: black;
+}
+
+.form__btn {
+  width: 96px;
+  padding: 4px 8px;
+  background-color: #fff;
+  border: none;
+  color: black;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &.error {
+    background-color: red;
+  }
+}

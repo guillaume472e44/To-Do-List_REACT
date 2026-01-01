@@ -1,0 +1,21 @@
+.todo {
+  list-style-type: none;
+}
+
+.todo__container {
+    background-color: #fff;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+    margin-block: 4px;
+    border-radius: 4px;
+}
+
+.todo__deleteBtn{
+    background-color: crimson;
+    border: none;
+    width: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+}
